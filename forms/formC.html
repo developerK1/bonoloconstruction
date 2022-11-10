@@ -1,0 +1,146 @@
+ <!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="EI=egde">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		#form-section {
+			width : 100%;
+			height : 90vh;
+			background-color :black;
+			display :flex;
+		}
+		#map {
+			width : 48%;
+			height : 80vh;
+			background-color :white;
+			
+		}
+		form {
+			width : 48%;
+			padding : 2%;
+			text-align :center;
+			border-radius : 18px;
+		}
+		.form-control {
+			height: calc(4.3em + .75rem + 2px) !important;
+		}
+		input {
+			text-align :center;
+		}
+		
+		button {
+			width : 180px;
+			height : 50px;
+			outline :none;
+		}
+		
+		
+		
+		@media(max-width:900px){
+			
+			form {
+				width : 98%;
+				padding : 2%;
+				margin : 1%;
+				transform :translateX(0px);
+			}
+			#map	 {
+				width : 100%;
+				height : 80vh;
+				top : 567px;
+			
+
+				margin-top : 40px;
+			}	
+			
+		}
+	</style>
+<!-- bootstrap -->
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<title>title</title>
+ <link rel="stylesheet"  href="../Style.css" href=”image.css”>	
+</head>
+<body>
+<main>
+<header>
+	<div class="container-fluid" >
+		<div class="row">
+			<div class="contacts">
+				<div class="contHOld">
+					<p>TELL : 081 881 4819</p>
+					<p class="p">EMAIL: Yourbusiness@email.com</p>
+				</div>
+				<div class="socialie-icon">
+					<img src="../image/social/facebook.png" alt="facebook-icon" />
+					<img src="../image/social/whatsapp.png" alt="whatsAPP-icon" />
+					<img src="../image/social/call.png" alt="phone-icon" />
+					<img src="../image/social/email.png" alt="email-adress-icon" />
+					<img src="../image/social/twitter.png" alt="twitter-icon" />
+					<img src="../image/social/instagram.jpg" alt="instagram-icon" />
+				</div>
+			</div>
+		</div>
+	</div>	
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="logo.PNG" height="56px"/>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+			<li class="nav-item active at-page">
+				<a class="nav-link" href="#">ABOUT</a>
+			</li>	  
+		  <li class="nav-item">
+				<a class="nav-link" href="404.html">PACKAGES</a>
+		  </li>
+		  <li class="nav-item">
+				<a class="nav-link" href="#">GALLERY</a>
+		  </li>
+		  <li class="nav-item">
+				<a class="nav-link " href="#">CONTACT US</a>
+		  </li>
+	</ul>
+  </div>
+</nav>
+</header>
+
+
+<section id="form-section">
+	<aside id="map" ><h2>THERE GOES A MAP</h2></aside>
+
+	<form role="form" id="theform">
+	<div class="form-group">
+		<input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+	</div>
+	<div class="form-group">
+		<input type="text" class="form-control" id="email" placeholder="Enter eMail" name="email">
+	</div>
+	<div class="form-group">
+		<input type="tel" class="form-control" id="email" placeholder="Phone Number" name="phone">
+	</div>
+	<div class="form-group">
+		<textarea type="text" rows="5" class="form-control" id="message" placeholder="How Can We Help You...?" name="message"></textarea>
+	</div>
+	<button type="submit"  onclick="sendEmail()" value="send an Email" >Submit</button>
+</form>
+
+	
+</section>
+
+
+
+
+
+
+<!--- JQUERY =========================== -->
+<script src="../jquery.js"></script>
+<!-- BOOTSTRAP ========================= -->
+<Script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../costomuzed.js"></script>
+</body>
+</html>

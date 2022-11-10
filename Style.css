@@ -1,0 +1,423 @@
+/*  ==================BASICS ====================== */
+ header {
+	 background-color :black;
+	 color :white;
+	border-bottom : 15px solid black;
+	 position :relative;
+ }
+ header .contacts {
+	 display :flex;
+	 color :red;
+	min-height : 45px;
+ }
+ main {
+	 padding : 0px;
+	 margin : 0px ;
+	 box-sizing : border-box;
+ }
+ .socialie-icon {
+	 height : 100%;
+	 padding-bottom : 10px;
+	 margin : 5px;
+	 position : absolute;
+	 right : 20px;
+ }
+.socialie-icon img {
+	 width : 30px;
+	 height : 30px;
+	 margin-right : 3px;
+	 border : 1px solid red;
+	 cursor : pointer;
+ }
+ header a:hover {
+	 background-color :black !important;
+	 color :red !important; 
+	 border-radius : 8px ;
+	transition : 0.6s;
+ }
+.navbar {
+		background-color : #dd3c15 !important ;
+		
+ }
+ .slide-Item3 h2 , .slide-Item2 h2 {
+	 font-size : 45px;
+	 font-weight : 780;
+	 letter-spacing : 1.5px;
+	 margin-bottom : 20px;
+ }
+ .navbar-toggler-icon {
+	 background-color : #d6c2c2 !important;
+	margin :2px !important;
+ }
+ .navbar-toggler {
+	  margin-bottom : 5px !important;
+ }
+  form button {
+	 border:2px solid black !important;
+	 color :black !important;  
+	 font-weight : 700 !important; 
+  }
+ form button:hover {
+	  background-color :black !important;
+	 color :red !important; 
+	 border-radius : 8px ;
+	transition : 0.6s;
+	border : none;
+ }
+.modal-open .modal {
+	background-color :#97000066 !important;
+}
+
+#notice-modal .modal-content,
+#mail-modal .modal-content{
+	border : 7px solid #f30909;
+	padding : 0.5%;
+}
+#notice-modal .modal-header,
+#mail-modal .modal-header {
+	display :flex;
+	flex-direction : column;
+	height : 18vh;
+	background-color : black;
+}
+#notice-modal .modal-header .close,
+#mail-modal .modal-header .close {
+	border : 2px solid #f30909;
+	background-color : white !important;
+	color : black;
+	transition : all 0.5s ease-in-out;
+}
+#notice-modal .modal-footer button,
+#mail-modal .modal-footer button {
+	border : 2px solid #f30909 ;
+	width : 120px;
+	background-color : white !important;
+	color : black;
+	transition : all 0.5s ease-in-out;
+
+}
+#notice-modal .modal-title,
+#mail-modal .modal-title {
+	color : #f30909;
+}
+#notice-modal .modal-body,
+#mail-modal .modal-body {
+	text-align : center;
+	font-size : 24px;	
+	font-style : italic;	
+}
+#notice-modal .modal-footer,
+#mail-modal .modal-footer {
+	background-color :black;	
+}
+#notice-modal .modal-footer button,
+#mail-modal .modal-footer button,
+#notice-modal .modal-header .close,
+#mail-modal .modal-header .close{
+	background-color : red !important;
+	letter-spacing : 2px !important;
+	color : white !important;
+	font-weight : 700 !important;
+}
+#mail-modal input {
+	border : 5px solid red;
+	height : 60px;
+}
+#mail-modal textarea {
+	border : 5px solid red;
+}
+#mail-modal label {
+	font-weight : 700;
+	font-size : 32px;
+	font-style : italic;
+}
+ ul li a {
+	 color : black !important ;
+	 text-align : center;
+	  color :white !important; 
+	  font-weight : 700;
+ }
+
+ .at-page {
+	 background-color :black !important;
+	 color :red !important; 
+	 border-radius : 8px ;
+	 transition :5s;
+	 width : 200px;
+	 height : 55px;
+ }
+.openn {
+	background-color : black;
+	width : 50px;
+	height : 50px;
+	border : 2px solid red!important;
+	display :flex;
+}
+.openn-icon {
+	background-color :#fffe00 ;
+	margin :auto;
+}
+ .activeH  {
+	 background-color :black !important;
+	 color :red !important; 
+	 border-radius : 8px ;
+	transition : 0.6s;
+	margin : 2px;
+}
+.contact-icon {
+	width : 75px;
+	height : 75px;
+	margin : 0px auto;
+}
+.navbar-brand img {
+	background-color : blak;
+	width : 140px;
+	height : 60px;
+	border : 3px solid black;
+}
+.carousel-control-next, .carousel-control-prev {
+	width:100px !important;
+	height:80px !important;
+	background-color : red;
+	top : 50%;
+	transform : translateY(-50%)
+}
+.navbar-light .navbar-nav .nav-link {
+	width : 100% !important;
+	height : 100% !important;
+	line-height : 38px;
+}
+
+/* ============================= COLOURS ================================== */
+.clr1 {
+    background-color: #dd3c15 !important;
+	color : white;
+}
+.clr2 {
+	background-color: black !important;
+	color : #dd3c15;
+}
+.clr3 {
+	background-color: #e8e8e8 !important;
+	color : black;
+}
+
+ /*============================= SILDING SECTION / CAROUSEL --------- */
+.carousel-item {
+	width : 100% !important;
+	height : 80vh !important;
+	color : white !important;
+	border-bottom : 20px solid black;
+}
+.slide-Item1 {
+	background : url("images/gallery/team-work.jpg") no-repeat;
+	background-position : center center !important;
+	background-size : cover !important;
+	background-blend-mode : darken !important;
+	
+} 
+ .slide-Item2 {
+	background : url("images/gallery/coverman.png") no-repeat;
+	background-position : center top !important;
+	background-size : cover !important;
+	background-blend-mode : darken !important;
+ }
+.slide-Item3 {
+	background : url("images/gallery/construction60.jpg") no-repeat;
+	background-position : center center !important;
+	background-size : cover !important;
+	background-blend-mode : darken !important;
+ }
+.middle {
+	margin : 20px 0px !important;
+	margin-bottom : 15px;
+}
+
+ /* ================== SECTIONS BY IDs ========================== */
+ 
+#contact-first {
+	background-color : grey;
+}
+
+#contact-first h2 {
+	text-align :center;
+}
+footer {
+	background-color : #f5f3f3;
+	font-style : italic;
+	font-size : 21px;
+	font-weight : 600;
+}
+footer .article , footer aside {
+	margin : 10px auto;
+	height : 35vh;
+	display :flex;
+	justify-content : center ;
+	align-items :center;
+}
+footer .article {
+	display :felx;
+	flex-direction :column;
+}
+footer aside img {
+	height : 75%;
+}
+footer figure {
+	background-color :black;
+	display :flex;
+	justify-content : space-around;
+	align-items :center ;
+	text-align : center;
+	height : 10vh;
+	padding-top : 10px;
+	color  : white;
+}
+/* ===============  MINI SECTIONS    ======================== */
+footer aside { 
+	display :flex;
+	flex-direction :column;
+}
+
+/* ===============  spans    ======================== */
+
+
+/* =================================== MODAL ======================= */
+main {
+	position : relative;
+}
+
+#modal-error {
+	width : 102vw;
+	height : 100vh;
+	display :none;
+	justify-content : center;
+	align-items : center;
+	flex-direction :column;
+	position :absolute;
+	top : 0;
+	background-color :#000000e3;
+	z-index : 10;
+}
+#modal-error  .container {
+	padding : 1%;
+	width : 70%;
+	border : 3px solid red;
+	background-color : white;
+	color : black;
+}
+.modal-fadeOut {
+	transition : 2s opacity;
+	opacity : 0;
+}
+#modal-error  .container p:nth-child(1){
+	width : 100%;
+	display :flex;
+	justify-content : flex-end;
+}
+#modal-error  span {
+	font-size : 38px;
+	font-weight : 800;
+	cursor : pointer;
+	margin-right : 30px;
+}
+#modal-error h2 {
+	font-size : 26px;
+	text-align : center;
+	margin-bottom : 20px;
+
+}
+#modal-error .p{
+	padding: 3%;
+	font-size : 20px;
+	font-weight : 700;
+	letter-spacing : 0.6;
+	text-align :center;
+	margin: 0.3px 0px;
+}
+
+.m {
+	font-weight : 800;
+	color : red;
+}
+.d {
+	font-weight : 800;
+	color : blue;
+}
+#modal-error .content div {
+	width : 100px;
+	height : 100px;
+	margin : 5px;
+	background-color :red;
+}
+#modal-error .content {
+	display :flex;
+	flex-direction : column;
+	justify-content :center;
+	height : 78vh;
+}
+footer aside{
+	display :flex;
+	margin : 0px auto;
+}
+
+
+ /* =========================phone scalling ============ */
+@media (max-width: 892px){
+	
+
+
+}
+
+@media (max-width: 872px){
+
+}
+@media (max-width: 762px){
+	 .slide-Item3 h2 , .slide-Item2 h2 {
+		 text-align :center;
+	 }
+}
+
+@media (max-width: 682px){
+
+	header .contacts .p{
+		display :none;
+	}
+
+}
+
+@keyframes flashy {
+	from {
+		background-color : black;
+		color : red;
+		text-decoration : underline;
+	}
+	to {
+		background-color : white;
+		color : black;
+	}
+}
+
+ /* ========================= JAVASCRIPT ============ */
+ /* ========================= JAVASCRIPT ============ */
+ /* ========================= JAVASCRIPT ============ */
+
+.seviceAside{
+	background-color : #dd3c15;
+	transition : all 0.4s ease-in-out;
+	color : white;
+}
+.seviceAsidLine{
+	background-color : white !important;
+	transition : all 0.6s ease-in-out;
+	width : 98% !important;
+}
+
+
+
+
+
+#map {
+	width : 100% !important;
+}
+ 
+ 
